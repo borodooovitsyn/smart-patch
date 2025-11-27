@@ -1,21 +1,27 @@
-# Arduino build
-*.elf
-*.bin
-*.hex
-*.cpp.d
-*.o
-*.d
+# PlatformIO build files
+.pio/
+.pioenvs/
+.piolibdeps/
 
-# VS Code
+# VS Code settings
 .vscode/
 *.code-workspace
 
-# Arduino Community Edition
-.arduino/
+# Arduino / PlatformIO temporary files
+*.bin
+*.elf
+*.hex
 
-# Mac
+# macOS system files
 .DS_Store
 
-# Temporary files
-*.tmp
+# Windows system files
+Thumbs.db
+Desktop.ini
+
+# Python cache (PlatformIO uses Python under the hood)
+__pycache__/
+
+# Logs
 *.log
+*.tmp
