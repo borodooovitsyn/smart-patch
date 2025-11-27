@@ -1,0 +1,21 @@
+# Arduino build
+*.elf
+*.bin
+*.hex
+*.cpp.d
+*.o
+*.d
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Arduino Community Edition
+.arduino/
+
+# Mac
+.DS_Store
+
+# Temporary files
+*.tmp
+*.log
